@@ -3,8 +3,6 @@ import Statistics from 'components/Statistics';
 import Section from 'components/Section/Section';
 import Notification from 'components/Notification/Notification';
 import FeedbackOptions from 'components/FeedbackOptions';
-import css from './App.module.css';
-
 export class App extends Component {
   state = {
     good: 0,
